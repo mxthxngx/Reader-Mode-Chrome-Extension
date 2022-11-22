@@ -1,0 +1,26 @@
+
+
+body > .scaffold > :is(top-nav, navigation-rail, side-nav, footer),
+main > :not(:last-child),
+main > :last-child > navigation-tree,
+input,
+main .toc-container {
+  display: none;
+}
+
+main > :last-child {
+  margin-top: min(10vmax, 10rem);
+  margin-bottom: min(10vmax, 10rem);
+  margin-left: min(1vmax, 1rem);
+  margin-right: min(1vmax, 1rem);
+  background-color: rgb(253, 253, 241);
+
+}
+*{
+    background-color: rgb(253, 253, 241);
+    color:black;
+    margin-left: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-right: 0;
+}
